@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <button class="btn dynamic-menu"><i id ="dynamic-menu" class="fa-solid fa-bars"></i></button>
+        <div class="left-bar">
+            <i class="fa-solid fa-basket-shopping"></i>
+            <h1>Grocify</h1>
+        </div>
+        <div id="menu-bar">
+            <button class="btn home">Home</button>
+            <button class="btn features">Features</button>
+            <button class="btn products">Products</button>
+            <button class="btn categories">Categories</button>
+            <button class="btn reviews">Reviews</button>
+            <button class="btn blogs">Blogs</button>
+        </div>
+        <div class="sliding-menu">
+            <button class="btn home">Home</button>
+            <button class="btn features">Features</button>
+            <button class="btn products">Products</button>
+            <button class="btn categories">Categories</button>
+            <button class="btn reviews">Reviews</button>
+            <button class="btn blogs">Blogs</button>
+        </div>
+        <form class="text-search">
+            <input type="text" id="product-search"  placeholder="search for products">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="right-bar">
+            <button class="btn search"><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button class="btn cart"><i class="fa-solid fa-cart-shopping"></i></button>
+            <button class="btn user-login"><i class="fa-solid fa-user"></i></button>
+        </div>
+    </header>
+    <form class="user">
+        <input type="email" required placeholder="Login Email">
+        <input type="password" required placeholder="Password">
+        <button type="submit">Login</button>
+    </form>
+    <main id="main">
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
